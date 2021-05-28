@@ -6,7 +6,13 @@ const myFun = () => {
     const fun = () => {
         console.log('eslint test');
     }
-    fun();
+    
+
+    let  c, d = 233;
+    // com
+    // com2
+     b = c + d;
+    console.log(b );
 };
 
 myFun();
