@@ -5,7 +5,7 @@ const myFun = () => {
     var b = 1
     const fun = () => {
         console.log('eslint test');
-    }
+    };
     
 
     let c, d = 233;
@@ -14,7 +14,7 @@ const myFun = () => {
     b = c + d;
     console.log(b );
 
-    let f = 1;
+    // let f = 1;
 };
 
 myFun();
