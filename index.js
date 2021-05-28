@@ -8,11 +8,13 @@ const myFun = () => {
     }
     
 
-    let  c, d = 233;
+    let c, d = 233;
     // com
     // com2
-     b = c + d;
+    b = c + d;
     console.log(b );
+
+    let f = 1;
 };
 
 myFun();
