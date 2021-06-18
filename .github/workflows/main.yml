@@ -1,10 +1,10 @@
-name: eslint
+name: eslintm
 on: 
   pull_request:
-  branches: 
-    - master
-    - dev
-    - devtest
+    branches: 
+      - master
+      - dev
+      - devtest
 jobs:
   eslint:
     name: runner / eslint
@@ -14,5 +14,5 @@ jobs:
       - uses: reviewdog/action-eslint@v1
         with:
           github_token: ${{ secrets.MY_TOKEN }}
-          reporter: github-pr-check # Change reporter.
-          eslint_flags: 'src/'
+          reporter: github-check # Change reporter.
+
