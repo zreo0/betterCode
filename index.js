@@ -5,8 +5,16 @@ const myFun = () => {
     var b = 1
     const fun = () => {
         console.log('eslint test');
-    }
-    fun();
+    };
+    
+
+    let c, d = 233;
+    // com
+    // com2
+    b = c + d;
+    console.log(b );
+
+    // let f = 1;
 };
 
 myFun();
