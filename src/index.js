@@ -4,5 +4,5 @@ const myFun = () => {
     console.log('a', a);
 };
 
-myFun();
+myFun()
 
