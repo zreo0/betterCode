@@ -1,5 +1,10 @@
 name: reviewdog
-on: [pull_request]
+on: 
+  pull_request:
+  branches: 
+    - master
+    - dev
+    - devtest
 jobs:
   eslint:
     name: runner / eslint
@@ -10,3 +15,4 @@ jobs:
         with:
           github_token: ${{ secrets.MY_TOKEN }}
           reporter: github-pr-check # Change reporter.
+          eslint_flags: '.'
