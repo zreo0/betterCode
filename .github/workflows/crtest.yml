@@ -25,8 +25,8 @@ jobs:
       - uses: reviewdog/action-eslint@v1
         with:
           github_token: ${{ secrets.MY_TOKEN }}
-          reporter: github-pr-check # Change reporter.
-          eslint_flags: 'src/'
+          reporter: github-pr-review # Change reporter.
+
       # Runs a single command using the runners shell      - name: Run a one-line script
 
 
