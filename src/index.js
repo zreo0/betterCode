@@ -1,5 +1,5 @@
 const myFun = () => {
-    console.log('#commit test 2);
+    console.log('#commit test 3);
 };
 
 myFun();
